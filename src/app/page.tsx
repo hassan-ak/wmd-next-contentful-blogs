@@ -9,8 +9,7 @@ import Image from 'next/image';
 //*********************************************//
 async function getBlogs() {
   const res = await fetch(
-    `https://cdn.contentful.com/spaces/${process.env.CONTENTFUL_SPACE_ID}/entries?access_token=${process.env.CONTENTFUL_ACCESS_KEY}&content_type=blog`,
-    { cache: 'no-store' }
+    `https://cdn.contentful.com/spaces/${process.env.CONTENTFUL_SPACE_ID}/entries?access_token=${process.env.CONTENTFUL_ACCESS_KEY}&content_type=blog`
   );
   if (!res.ok) {
     throw new Error('Failed to fetch data');

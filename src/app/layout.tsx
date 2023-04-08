@@ -1,4 +1,5 @@
-import './globals.css'
+import './globals.css';
+import { Header } from '@/components/Header';
 
 export const metadata = {
   title: 'Blogs',
@@ -8,11 +9,14 @@ export const metadata = {
 export default function RootLayout({
   children,
 }: {
-  children: React.ReactNode
+  children: React.ReactNode;
 }) {
   return (
-    <html lang="en">
-      <body>{children}</body>
+    <html lang='en'>
+      <body className='bg-gray-100 text-gray-800'>
+        <Header />
+        {children}
+      </body>
     </html>
-  )
+  );
 }

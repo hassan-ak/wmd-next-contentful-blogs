@@ -16,6 +16,6 @@ Blogs App to demostrate working with contentful cms with Next.js
 
 ### Deployment
 
-- This Simple Books app is deployed on vercel and can be accessed by visiting following [URL](https://wmd-next-contentful-blogs.vercel.app/)
+- This Blogs app is deployed on vercel and can be accessed by visiting following [URL](https://wmd-next-contentful-blogs.vercel.app/)
 
   - https://wmd-next-contentful-blogs.vercel.app/
